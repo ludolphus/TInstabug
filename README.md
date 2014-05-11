@@ -41,11 +41,11 @@ Next add this to your tiapp.xml
 
 For 'InstabugFeedbackEvent' choose one of the ways to allow the user to bring up Instabug:
 
-0 - InstabugFeedbackEventShake
-1 - InstabugFeedbackEventScreenshot
-2 - InstabugFeedbackEventThreeFingersSwipe
-3 - InstabugFeedbackEventNone
-4 - InstabugFeedbackEventFloatingButton
+	0 - InstabugFeedbackEventShake
+	1 - InstabugFeedbackEventScreenshot
+	2 - InstabugFeedbackEventThreeFingersSwipe
+	3 - InstabugFeedbackEventNone
+	4 - InstabugFeedbackEventFloatingButton
 
 For 'InstabugTrackLocation' specify 0 (no location tracking) or 1 (location tracking).
 
