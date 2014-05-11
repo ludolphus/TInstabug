@@ -1,0 +1,1 @@
+20140511 @ludolphus First version of the module based on Instabug SDK 1.6
