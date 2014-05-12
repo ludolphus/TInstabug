@@ -93,7 +93,6 @@
 
 -(void)showFeedbackFormWithScreenshot:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug ShowFeedbackFormWithScreenshot:(BOOL)[TiUtils boolValue:value]];
 }
 
@@ -111,7 +110,6 @@
 
 -(void)setAppIntrospection:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setAppIntrospection:(BOOL) [TiUtils boolValue:value]];
 }
 
@@ -123,13 +121,11 @@
 
 -(void)setShowScreenshot:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setShowScreenshot:(BOOL) [TiUtils boolValue:value]];
 }
 
 -(void)setShowEmail:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setShowEmail:(BOOL) [TiUtils boolValue:value]];
 }
 
@@ -153,13 +149,11 @@
 
 -(void)setIphoneShakingThreshold:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setiPhoneShakingThreshold:(double) [TiUtils floatValue:value]];
 }
 
 -(void)setiPadShakingThreshold:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setiPadShakingThreshold:(double) [TiUtils floatValue:value]];
 }
 
@@ -172,7 +166,6 @@
 // Set Alerts parameters
 -(void)setEmailIsRequired:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setEmailIsRequired:(BOOL) [TiUtils boolValue:value]];
 }
 
@@ -184,7 +177,6 @@
 
 -(void)setCommentIsRequired:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setCommentIsRequired:(BOOL) [TiUtils boolValue:value]];
 }
 
@@ -196,7 +188,6 @@
 
 -(void)setShowStartAlert:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setShowStartAlert:(BOOL) [TiUtils boolValue:value]];
 }
 
@@ -208,7 +199,6 @@
 
 -(void)setShowThankYouAlert:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setCommentIsRequired:(BOOL) [TiUtils boolValue:value]];
 }
 
@@ -243,7 +233,6 @@ MAKE_SYSTEM_PROP(InstabugColorThemeFlatGreen,InstabugColorThemeFlatGreen);
 
 -(void)setColorTheme:(id)value
 {
-	ENSURE_ARG_COUNT(value, 1);
 	[Instabug setColorTheme:(InstabugColorTheme) [TiUtils intValue:value]];
 }
 

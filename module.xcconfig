@@ -25,4 +25,4 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-OTHER_LDFLAGS=$(inherited) -ObjC -fobjc-arc -lc++ -lz -framework Instabug
+OTHER_LDFLAGS=$(inherited) -ObjC -fobjc-arc -lc++ -lz -framework Instabug -framework CoreTelephony
