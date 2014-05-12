@@ -33,28 +33,28 @@ Please read [Instabug SDK](http://instabug.com/sdk_integration) for details on h
 
 #### Set SDK Parameters
 
-	Instabug setAppIntrospection(boolean);
-	Instabug setUserDataString('');
-	Instabug setShowScreenshot(boolean);
-	Instabug setShowEmail(boolean);
-	Instabug setEmail('');
-	Instabug setEmailPlaceholder('');
-	Instabug setCommentPlaceholder('');
+	Instabug.setAppIntrospection(boolean);
+	Instabug.setUserDataString('');
+	Instabug.setShowScreenshot(boolean);
+	Instabug.setShowEmail(boolean);
+	Instabug.setEmail('');
+	Instabug.setEmailPlaceholder('');
+	Instabug.setCommentPlaceholder('');
 	Instabug.setIphoneShakingThreshold(4);
 	Instabug.setIpadShakingThreshold(4);
-	Instabug attachFileAtLocation('');
+	Instabug.attachFileAtLocation('');
 
 #### Set Alerts parameters
 
-	Instabug setEmailIsRequired(boolean);
-	Instabug setEmailInvalidText('');
-	Instabug setCommentIsRequired(boolean);
-	Instabug setCommentInvalidText('');
-	Instabug setShowStartAlert(boolean);
-	Instabug setStartAlertText('');
-	Instabug setCommentIsRequired(boolean);
+	Instabug.setEmailIsRequired(boolean);
+	Instabug.setEmailInvalidText('');
+	Instabug.setCommentIsRequired(boolean);
+	Instabug.setCommentInvalidText('');
+	Instabug.setShowStartAlert(boolean);
+	Instabug.setStartAlertText('');
+	Instabug.setCommentIsRequired(boolean);
 	Instabug.setThankYouAlertText('Thank's for helping out!'');
-	Instabug setAlertsTitle('');
+	Instabug.setAlertsTitle('');
 
 #### Set Design Parameters
 
