@@ -10,29 +10,29 @@
 	<string>instabug</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CF4E2D0E-72F8-48FE-8791-A485C4D2EB1A</key>
+		<key>6392FB835C0BE7D9B60B00BED20D212E4B56DC13</key>
 		<string>https://github.com/ludolphus/TInstabug.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>instabug.xcodeproj/project.xcworkspace</string>
+	<string>instabug.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CF4E2D0E-72F8-48FE-8791-A485C4D2EB1A</key>
+		<key>6392FB835C0BE7D9B60B00BED20D212E4B56DC13</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ludolphus/TInstabug.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CF4E2D0E-72F8-48FE-8791-A485C4D2EB1A</string>
+	<string>6392FB835C0BE7D9B60B00BED20D212E4B56DC13</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CF4E2D0E-72F8-48FE-8791-A485C4D2EB1A</string>
+			<string>6392FB835C0BE7D9B60B00BED20D212E4B56DC13</string>
 			<key>IDESourceControlWCCName</key>
 			<string>instabug</string>
 		</dict>
