@@ -96,12 +96,12 @@
 	[Instabug ShowFeedbackFormWithScreenshot:(BOOL)[TiUtils boolValue:value]];
 }
 
--(void)disableSDK
+-(void)disableSDK:(id)value
 {
 	[Instabug disableSDK];
 }
 
--(void)enableSDK
+-(void)enableSDK:(id)value
 {
 	[Instabug enableSDK];
 }

@@ -28,8 +28,8 @@ Please read [Instabug SDK](http://instabug.com/sdk_integration) for details on h
 
 	Instabug.showFeedbackForm();
 	Instabug.showFeedbackFormWithScreenshot(boolean);
-	Instabug.disableSDK;
-	Instabug.enableSDK;
+	Instabug.disableSDK();
+	Instabug.enableSDK();
 
 #### Set SDK Parameters
 
