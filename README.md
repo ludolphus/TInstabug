@@ -1,6 +1,8 @@
 Instabug module for Appcelerator
 ===========================================
 
+I'm no longer maintaining this module. Please check out this more up-to-date module for Instabug features in appcelerator: https://github.com/inthekloud/ITK.Instabug
+
 Instabug gives you instant bug reporting for mobile apps by allowing your users to draw on the screen and attach text feedback.
 
 For this module to work you need to create an account and setup your app at [https://instabug.com/](https://instabug.com/)
